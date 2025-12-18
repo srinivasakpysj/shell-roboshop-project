@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AMI_ID="ami-09c813fb71547fc4f"
-SG_ID="sg-02aa3db70763a0701" # replace with your SG ID
+SG_ID="sg-01d84e987ab45eef9" # replace with your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
 ZONE_ID="Z05564583KGI8O0CV6ITO" # replace with your ZONE ID
 DOMAIN_NAME="srinivasak.online" # replace with your domain
